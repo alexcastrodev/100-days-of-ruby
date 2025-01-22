@@ -84,3 +84,14 @@ https://github.com/ruby/ruby/blob/master/array.c
 https://ruby-doc.org/core-2.6/Enumerator.html
 
 https://ruby-doc.org/core-2.6/Array.html
+
+
+# Day 3
+
+Priority Queue
+
+Ruby has a built-in gem called syntax suggest, that you can use PriorityQueue Data Structure
+
+https://github.com/ruby/syntax_suggest/blob/main/lib/syntax_suggest/priority_queue.rb
+
+[See example](./day_3.rb)
