@@ -95,3 +95,15 @@ Ruby has a built-in gem called syntax suggest, that you can use PriorityQueue Da
 https://github.com/ruby/syntax_suggest/blob/main/lib/syntax_suggest/priority_queue.rb
 
 [See example](./day_3.rb)
+
+# Day 4
+
+Monkey Patching
+
+In Ruby, a Monkey Patch (MP) is referred to as a dynamic modification to a class and by a dynamic modification to a class means to add new or overwrite existing methods at runtime.
+
+[See example](./day_4.rb)
+
+https://www.geeksforgeeks.org/monkey-patching-in-ruby/
+
+https://shopify.engineering/the-case-against-monkey-patching
