@@ -13,8 +13,9 @@ VALUE power(VALUE self, VALUE base, VALUE exp) {
 /**
  * Initializes the power extension for Ruby.
  *
- * This function defines a new method called "power" for the Ruby Object class.
- * The "power" method takes two arguments.
+ * This function defines the "power" method in the Math module.
+ * The method takes two arguments, the base and the exponent, and returns the result of raising the base to the exponent.
+ * 
  *
  * @example Usage of the power method
  *  Math.power(2, 3) # => 8
