@@ -107,3 +107,15 @@ In Ruby, a Monkey Patch (MP) is referred to as a dynamic modification to a class
 https://www.geeksforgeeks.org/monkey-patching-in-ruby/
 
 https://shopify.engineering/the-case-against-monkey-patching
+
+# Day 5
+
+mkmf.rb is used by Ruby C extensions to generate a Makefile which will correctly compile and link the C extension to Ruby and a third-party library.
+
+The focus here is to create a power method for the Math module. Although the Math module already includes this functionality, this exercise aims to learn how to interoperate with a C native module.
+
+[See example](./day_5.rb)
+
+Also, you can see the power_extension
+
+[See example](./power_extension/power_extension.c)
