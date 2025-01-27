@@ -119,3 +119,23 @@ The focus here is to create a power method for the Math module. Although the Mat
 Also, you can see the power_extension
 
 [See example](./power_extension/power_extension.c)
+
+# Day 6
+
+it is added to reference a block parameter with no variable name
+
+```ruby
+# In Ruby 3.4.x:
+['Go'].map { "#{it} Rails!" }
+# => ["Go Rails!"]
+
+# In Ruby 3.3.x and earlier:
+['Go'].map { |item| "#{item} Rails!" }
+# => ["Go Rails!"]
+```
+
+it very much behaves the same as _1. When the intention is to only use _1 in a block, the potential for other numbered parameters such as _2 to also appear imposes an extra cognitive load onto readers. So it was introduced as a handy alias. Use it in simple cases where it speaks for itself, such as in one-line blocks.
+
+[See example](./day_6.rb)
+
+https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
