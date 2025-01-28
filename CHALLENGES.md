@@ -139,3 +139,22 @@ it very much behaves the same as _1. When the intention is to only use _1 in a b
 [See example](./day_6.rb)
 
 https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
+
+# Day 7
+
+Ractor is a Actor-model abstraction for Ruby that provides thread-safe parallel execution.
+
+Ractors do not share usual objects, so the some kind of thread-safety concerns such as data-race, race-conditions are not available on multi-ractor programming.
+
+To achieve this, ractors severely limit object sharing between different ractors. For example, unlike threads, ractors can't access each other's objects, nor any objects through variables of the outer scope.
+
+https://ruby-doc.org/core-3.0.2/Ractor.html
+
+https://www.speedshop.co/2020/05/11/the-ruby-gvl-and-scaling.html
+
+https://docs.appsignal.com/ruby/integrations/global-vm-lock.html
+
+https://rubykaigi.org/2023/presentations/KnuX.html
+
+
+[See example](./day_7.rb)
