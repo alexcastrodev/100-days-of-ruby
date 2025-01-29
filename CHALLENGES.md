@@ -158,3 +158,9 @@ https://rubykaigi.org/2023/presentations/KnuX.html
 
 
 [See example](./day_7.rb)
+
+# Day 8
+
+Using the "c_call" event, you are notified whenever a C implementation is invoked, such as Array or String methods. Additionally, you can access detailed information using TracePoint's features
+
+[See example](./day_8.rb)
