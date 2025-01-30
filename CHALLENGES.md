@@ -164,3 +164,13 @@ https://rubykaigi.org/2023/presentations/KnuX.html
 Using the "c_call" event, you are notified whenever a C implementation is invoked, such as Array or String methods. Additionally, you can access detailed information using TracePoint's features
 
 [See example](./day_8.rb)
+
+# Day 9
+
+I can create a CLI that append file using File module and ARGV to read command line arguments.
+
+https://ruby-doc.org/core-2.5.5/File.html
+
+https://www.rubyguides.com/2015/05/working-with-files-ruby/
+
+[See example](./day_9.rb)
