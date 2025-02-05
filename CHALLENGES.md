@@ -174,3 +174,10 @@ https://ruby-doc.org/core-2.5.5/File.html
 https://www.rubyguides.com/2015/05/working-with-files-ruby/
 
 [See example](./day_9.rb)
+
+
+# Day 10
+
+using built-in singleton with ruby
+
+[See example](./day_10.rb)
