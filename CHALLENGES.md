@@ -181,3 +181,27 @@ https://www.rubyguides.com/2015/05/working-with-files-ruby/
 using built-in singleton with ruby
 
 [See example](./day_10.rb)
+
+# Day 11
+
+DSL Ruby
+
+The general definition of DSLs is that they are languages specialized to a particular application domain or use case
+
+https://thoughtbot.com/blog/writing-a-domain-specific-language-in-ruby
+
+https://www.toptal.com/ruby/ruby-dsl-metaprogramming-guide
+
+[See example](./day_11.rb)
+
+# Day 12
+
+Refinements
+
+Due to Ruby's open classes you can redefine or add functionality to existing classes.
+
+This also make DSL working globally ( see day 11 )
+
+https://docs.ruby-lang.org/en/2.4.0/syntax/refinements_rdoc.html
+
+[See example](./day_12.rb)
