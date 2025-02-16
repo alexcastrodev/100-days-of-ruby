@@ -205,3 +205,18 @@ This also make DSL working globally ( see day 11 )
 https://docs.ruby-lang.org/en/2.4.0/syntax/refinements_rdoc.html
 
 [See example](./day_12.rb)
+
+# Day 13
+
+send vs call method
+
+What is message? 
+
+Smalltalk documentation says:
+Smalltalk draws a clear distinction between “methods” and “messages”. In Smalltalk “everything happens by sending messages.”
+
+The parent of all classes in Ruby is [BasicObject](https://docs.ruby-lang.org/en/3.2/BasicObject.html#method-i-__send__)
+
+the call is related to method: https://ruby-doc.org/3.3.0.preview2/Method.html from object Method: https://ruby-doc.org/3.3.0.preview2/Object.html#method-i-method
+
+[See example](./day_13.rb)
